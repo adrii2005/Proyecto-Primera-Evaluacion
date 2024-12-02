@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Hotel Paloma</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+    <h1>Rellene el formulario para realizar su reserva</h1>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form action="reservapaloma.php">
+            <p>
+            <label for="nom">Nombre: </label>
+            <input type="text" name="" id="nom" maxlength="25" required>
+        </p>
+        <p>
+            <label for="ape">Apellidos: </label>
+            <input type="text" name="" id="ape" maxlength="50" required>
+        </p>
+        <p>
+            <label for="cor">Correo electronico: </label>
+            <input type="email" name="" id="cor" maxlength="50" required>
+        </p>
+        <p>
+            <label for="tel">Telefono: </label>
+            <input type="tel" name="" id="tel" maxlength="9" required>
+        </p>
+        <p>
+            <label for="ed">Edad: </label>
+            <input type="number" name="" id="ed" max="100" min="10" required>
+        </p>
+        <p>
+            <label for="">Sexo:</label>
+            <label for="mas">H</label>
+            <input type="radio" name="sex" id="mas">
+            <label for="fem">M</label>
+            <input type="radio" name="sex" id="fem">
+        </p>
+            
+       
+    </fieldset>
+    <fieldset>
+        <legend>
+            Detalles de su reserva
+        </legend>
+        <p>
+            <label for="hab">Habitacion: </label>
+            <select name="" id="hab" required>
+                <option value="ind" selected>Individual</option>
+                <option value="dob">Doble</option>
+                <option value="tri">Triple</option>
+            </select>
+        </p>
+        <p>
+            <label for="pen">Tipo de pension</label>
+            <select name="" id="pen" required>
+                <option value="medpen" selected>Media</option>
+                <option value="compen">Completa</option>
+            </select>
+        </p>
+        <p>
+            <label for="llega">Dia de llegada</label>
+            <input type="date" name="" id="llega" required>
+        </p>
+        <p>
+            <label for="sali">Dia de salida</label>
+            <input type="date" name="" id="sali" required>
+        </p>
+    </fieldset>
+    <p>
+        <input type="checkbox" name="" id="infad" checked>
+        <label for="infad">Deseo recibir informacion adicional sobre nuestros servicios</label>
+    </p>
+    <input type="submit">
+    <input type="reset">
+    <p></p>
+    <a href="index.html">Pulsa aqui para volver</a>
+</form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chango&family=Dancing+Script:wght@400..700&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&family=Parisienne&family=Praise&family=Satisfy&display=swap');
+h1 {
+    text-align: center;
+    font-family: "Parisienne", serif;
+    font-size: 5em;
+    color: brown;
+    border: 2px solid brown;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+body {
+    background-color: burlywood;
+}
+a {
+    font-size: 25px;
+    
+}
+a:link {
+    color: chartreuse;
+}
+a:visited {
+color: gold;
+}
+a:hover {
+color: coral;
+}
+a:active {
+color: crimson;
+}
+table , td, th{
+    border: 2px solid darkorange;
+    padding: 20px;
+    border-collapse: collapse;
+
+}
+table {
+    background-color: cornsilk;
+    font-family: "Lora", serif;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+th {
+    color: #000080
+}
+td {
+    color: darkgreen;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chango&family=Dancing+Script:wght@400..700&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&family=Parisienne&family=Praise&family=Satisfy&display=swap');
+body {
+    background-color: skyblue;
+}
+h1 {
+    font-family: "Parisienne", serif;
+    font-size: 3em;
+    color: darkgoldenrod;
+    border: 2px solid gold;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+fieldset {
+    font-family: "Lora", serif;
+    padding: 10px;
+    border: 2px solid gold;
+}
+input{
+    background-color: beige
+}
+select {
+    background-color: beige;
+}
+legend {
+    font-size: 40px;
+    font-family: "Caveat", serif;
+}
+a {
+    font-size: 25px;
+    
+}
+a:link {
+    color: chartreuse;
+}
+a:visited {
+color: gold;
+}
+a:hover {
+color: coral;
+}
+a:active {
+color: crimson;
+}
